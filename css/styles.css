@@ -156,10 +156,19 @@ img {
   bottom: -26px;
   right: 0px;
 
-  
   border-radius: 4px;
-  
-  
+}
+
+.portfolio::after {
+  content: "";
+  height: 4px;
+  width: 64px;
+  background-color: var(--press-color);
+  position: absolute;
+  bottom: -26px;
+  right: 0px;
+
+  border-radius: 4px;
 }
 
 /*--------------- hero */
