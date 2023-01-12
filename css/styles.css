@@ -101,6 +101,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+
+  
 }
 
 .link-mail {
@@ -139,6 +141,25 @@ img {
 .header-contact {
   margin-left: auto;
   gap: 40px;
+}
+
+.header-item {
+  position: relative;
+}
+
+.studio::after {
+  content: "";
+  height: 4px;
+  width: 48px;
+  background-color: var(--press-color);
+  position: absolute;
+  bottom: -26px;
+  right: 0px;
+
+  
+  border-radius: 4px;
+  
+  
 }
 
 /*--------------- hero */
