@@ -436,20 +436,13 @@ img {
 }
 
 .customers-item {
-  /* width: 168px;
-  height: 88px; */
-
+  
   border: 1px solid var(--subtle-color);
   border-radius: 4px;
-  background-color: var(--white-color);
 
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  /* display: flex;
-  align-content: center;
-  justify-content: center;
-  flex-wrap: wrap; */
 }
 
 .customers-item:hover,
