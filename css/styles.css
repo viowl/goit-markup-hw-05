@@ -436,8 +436,8 @@ img {
 }
 
 .customers-item {
-  width: 168px;
-  height: 88px;
+  /* width: 168px;
+  height: 88px; */
 
   border: 1px solid var(--subtle-color);
   border-radius: 4px;
