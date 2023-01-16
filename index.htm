@@ -15,6 +15,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -27,7 +32,7 @@
           >
           <ul class="header-list list flex">
             <li class="header-item">
-              <a href="./index.htm" class="link link-nav studio">Studio</a>
+              <a href="./index.htm" class="link link-nav current">Studio</a>
             </li>
             <li class="header-item">
               <a href="./portfolio.html" class="link link-nav">Portfolio</a>
@@ -390,5 +395,19 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <button type="button" class="modal-close">
+          <svg>
+            <use href="./images/symbol-defs.svg#icon-x"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
+
