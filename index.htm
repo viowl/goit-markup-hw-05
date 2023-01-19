@@ -61,7 +61,7 @@
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <!-- sdelat knopky Order Service -->
-          <button type="button" class="button-hero">Order Service</button>
+          <button type="button" class="button-hero" data-modal-open>Order Service</button>
         </div>
       </section>
       <!-- -----------------------METHODS  -->
@@ -395,11 +395,11 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close">
-          <svg>
-            <use href="./images/symbol-defs.svg#icon-x"></use>
+        <button type="button" class="modal-close" data-modal-close>
+          <svg class="x" width="8" height="8">
+            <use href="./images/symbol-defs.svg#icon-X"></use>
           </svg>
         </button>
       </div>
@@ -408,6 +408,7 @@
     <script>
       AOS.init();
     </script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
 
